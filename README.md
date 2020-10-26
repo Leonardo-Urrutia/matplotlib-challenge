@@ -1,1 +1,8 @@
 # matplotlib-challenge
+I was blessed with the role of Senior Analyst at a pharmaceutical company called Pymaceuticals. Below are my observations from my analyses.
+
+The experiment conducted was with a total of 249 mice and a total of 10 different drug regimens, including a test group for placebo. One mouse with the ID of g989 had duplicate inputs for each timepoint, so that mouse was not included in the summary analyses, thus resulting in the summary analyses contain the results for 248 mice. Each regimen had 25 total mice, excluding Propriva and Stelasyn, which had 24 mice each. There was a total of 125 male mice and 123 female mice in this experiement.
+
+The regimens that diplayed the most promising results are Capomulin, Ramicane, Infubinol, and Ceftamin. The data was also relatively clean with one potential outlier for the Ceftamin's Tumor Volume inputs, being around 38mm3. From observing one mouse, B128, the starting tumor volume size was 45mm3. By the final timepoint, the tumor size decreased to 38.98mm3.
+
+There is a correlation with the tumor size and mouse weight. A scatter plot was created with the average tumor volume and mouse weight in grams. As the weight of the mouse increases, the tumor volume is greater. The lightest mouse, x401, is 15 grams and has the average tumor volume of 36mm3 and the heaviest mice are r157 and r944, both weighing 25 grams. R157 has an average tumor volume of 45.80mm3 and R994 with 43.37mm3.
